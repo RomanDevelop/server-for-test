@@ -3,9 +3,9 @@ from pydantic import BaseModel
 import requests
 
 # Twilio credentials (replace with your values)
-account_sid = 'AC91d2411192e18f6a11fbece08400b5e3'  # Your Account SID from Twilio Console
-auth_token = '8f29309aae58b0008dc2626e3b4ac80e'   # Your Auth Token from Twilio Console
-verify_service_sid = 'VAbc3183296d9cc91f6ba430b1c71f02fc'  # Your Verify Service SID
+account_sid = ''  # Your Account SID from Twilio Console
+auth_token = ''   # Your Auth Token from Twilio Console
+verify_service_sid = ''  # Your Verify Service SID
 
 # Initialize FastAPI application
 app = FastAPI()
